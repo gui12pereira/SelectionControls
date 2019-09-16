@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_ativar_localizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:checked="false"
+        android:text="Ativar localização"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_cobol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cobol"
+        android:checked="true"
+        android:enabled="false"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_vb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VB"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_csharp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C#"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_php"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHP"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não informar"/>
+
+    </RadioGroup>
+
+
+
+    <ToggleButton
+        android:id="@+id/toggle_teste"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textOff="Desligado"
+        android:textOn="Ligado"
+        android:drawableLeft="@mipmap/ic_wifi"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_testar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Testar"/>
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/img_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_wifi"/>
+
+</LinearLayout>
